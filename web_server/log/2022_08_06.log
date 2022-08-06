@@ -1,0 +1,122 @@
+2022-08-06 13:39:59.739544 [Info] : ========== Server Init ==========
+2022-08-06 13:39:59.739593 [Info] : Port: 8888, OpenLinger: true
+2022-08-06 13:39:59.739708 [Info] : Listen Mode: ET, OpenConn Mode: ET
+2022-08-06 13:39:59.739842 [Info] : LogSys level: 0
+2022-08-06 13:39:59.739932 [Info] : ========== Server Start ==========
+2022-08-06 13:41:11.508235 [Info] : Client[6](111.117.126.51:43035) in, UserCount:1
+2022-08-06 13:41:11.508507 [Info] : Client[6] in!
+2022-08-06 13:41:11.515245 [Debug]: Body: {"code":"binary search"}, len: 24
+2022-08-06 13:41:11.515342 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:41:11.515587 [Info] : Client[6] quit!
+2022-08-06 13:41:37.111175 [Info] : Client[7](111.117.126.51:1764) in, UserCount:2
+2022-08-06 13:41:37.111317 [Info] : Client[7] in!
+2022-08-06 13:41:37.118112 [Debug]: Body: {"code":"binary search"}, len: 24
+2022-08-06 13:41:37.118208 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:41:37.118473 [Info] : Client[7] quit!
+2022-08-06 13:42:11.549900 [Info] : Client[6] quit!
+2022-08-06 13:44:28.921372 [Info] : ========== Server Init ==========
+2022-08-06 13:44:28.921417 [Info] : Port: 8888, OpenLinger: true
+2022-08-06 13:44:28.921431 [Info] : Listen Mode: ET, OpenConn Mode: ET
+2022-08-06 13:44:28.921443 [Info] : LogSys level: 0
+2022-08-06 13:44:28.921455 [Info] : ========== Server Start ==========
+2022-08-06 13:44:32.279922 [Info] : Client[6](111.117.126.51:38010) in, UserCount:1
+2022-08-06 13:44:32.280061 [Info] : Client[6] in!
+2022-08-06 13:44:33.440730 [Debug]: REPLY: Binary search .
+2022-08-06 13:44:33.440844 [Debug]: Body: {"code":"binary search"}, len: 24
+2022-08-06 13:44:33.440901 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:44:33.441191 [Info] : Client[6] quit!
+2022-08-06 13:44:54.955054 [Info] : Client[10](111.117.126.51:34555) in, UserCount:2
+2022-08-06 13:44:54.955189 [Info] : Client[10] in!
+2022-08-06 13:44:55.090477 [Debug]: REPLY: Binary search .
+2022-08-06 13:44:55.090583 [Debug]: Body: {"code":"binary search"}, len: 24
+2022-08-06 13:44:55.090639 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:44:55.090901 [Info] : Client[10] quit!
+2022-08-06 13:45:03.184528 [Info] : Client[11](111.117.126.51:31573) in, UserCount:3
+2022-08-06 13:45:03.184661 [Info] : Client[11] in!
+2022-08-06 13:45:03.297635 [Debug]: REPLY: Binary search test .
+2022-08-06 13:45:03.297808 [Debug]: Body: {"code":"binary search test"}, len: 29
+2022-08-06 13:45:03.297916 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:45:03.298217 [Info] : Client[11] quit!
+2022-08-06 13:45:33.470326 [Info] : Client[6] quit!
+2022-08-06 13:45:55.112179 [Info] : Client[10] quit!
+2022-08-06 13:50:18.891803 [Info] : ========== Server Init ==========
+2022-08-06 13:50:18.891842 [Info] : Port: 8888, OpenLinger: true
+2022-08-06 13:50:18.891958 [Info] : Listen Mode: ET, OpenConn Mode: ET
+2022-08-06 13:50:18.892079 [Info] : LogSys level: 0
+2022-08-06 13:50:18.892133 [Info] : ========== Server Start ==========
+2022-08-06 13:50:39.051147 [Info] : Client[6](111.117.126.51:22104) in, UserCount:1
+2022-08-06 13:50:39.051286 [Info] : Client[6] in!
+2022-08-06 13:50:39.274562 [Debug]: REPLY: Count the number of lines in a file .
+2022-08-06 13:50:39.274668 [Debug]: Body: {"code":"def count_file_lines(filepath): num = subprocess.check_output(['wc', '-l', filepath]) num = list(filter(not_emp
+2022-08-06 13:50:39.274725 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:50:39.275035 [Info] : Client[6] quit!
+2022-08-06 13:51:35.469739 [Info] : Client[10](111.117.126.51:63972) in, UserCount:2
+2022-08-06 13:51:35.469885 [Info] : Client[10] in!
+2022-08-06 13:51:35.654966 [Debug]: REPLY: Tokenize a string with a camel case .
+2022-08-06 13:51:35.655104 [Debug]: Body: {"code":"def tokenize_with_camel_case(token: str) -> list: matches = re.finditer('.+?(?:(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?
+2022-08-06 13:51:35.655175 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:51:35.655412 [Info] : Client[10] quit!
+2022-08-06 13:51:39.278061 [Info] : Client[6] quit!
+2022-08-06 13:51:59.747998 [Info] : Client[11](111.117.126.51:5568) in, UserCount:3
+2022-08-06 13:51:59.748130 [Info] : Client[11] in!
+2022-08-06 13:51:59.950253 [Debug]: REPLY: Tokenize a string using snake_case .
+2022-08-06 13:51:59.950720 [Debug]: Body: {"code":"def tokenize_with_snake_case(token: str) -> list: return token.split('_')"}, len: 84
+2022-08-06 13:51:59.950791 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:51:59.951030 [Info] : Client[11] quit!
+2022-08-06 13:52:03.892357 [Info] : Client[12](111.117.126.51:36375) in, UserCount:4
+2022-08-06 13:52:03.892490 [Info] : Client[12] in!
+2022-08-06 13:52:04.115397 [Debug]: REPLY: Takes a string and converts it to snake_case
+2022-08-06 13:52:04.115554 [Debug]: Body: {"code":"def process_camel_snake_case(text: str) -> str: tokens = text.split() snake_case_tokenized = [] for token in to
+2022-08-06 13:52:04.115599 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:04.115832 [Info] : Client[12] quit!
+2022-08-06 13:52:09.545164 [Info] : Client[13](111.117.126.51:35203) in, UserCount:5
+2022-08-06 13:52:09.545297 [Info] : Client[13] in!
+2022-08-06 13:52:09.714114 [Debug]: REPLY: Load a list of examples .
+2022-08-06 13:52:09.714263 [Debug]: Body: {"code":"def load_data(args, filenames, max_examples=-1, dataset_name='java', test_split=False) -> list(): srcpath = fil
+2022-08-06 13:52:09.714329 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:09.714573 [Info] : Client[13] quit!
+2022-08-06 13:52:35.680505 [Info] : Client[10] quit!
+2022-08-06 13:52:38.630941 [Info] : Client[14](111.117.126.51:31331) in, UserCount:6
+2022-08-06 13:52:38.631046 [Info] : Client[14] in!
+2022-08-06 13:52:38.833211 [Debug]: REPLY: Count the number of lines in a file .
+2022-08-06 13:52:38.833304 [Debug]: Body: {"code":"def count_file_lines(filepath): num = subprocess.check_output(['wc', '-l', filepath]) num = list(filter(not_emp
+2022-08-06 13:52:38.833324 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:38.833495 [Info] : Client[14] quit!
+2022-08-06 13:52:42.444581 [Info] : Client[15](111.117.126.51:48298) in, UserCount:7
+2022-08-06 13:52:42.444686 [Info] : Client[15] in!
+2022-08-06 13:52:42.608852 [Debug]: REPLY: Tokenize a string with a camel case .
+2022-08-06 13:52:42.608987 [Debug]: Body: {"code":"def tokenize_with_camel_case(token: str) -> list: matches = re.finditer('.+?(?:(?<=[a-z])(?=[A-Z])|(?<=[A-Z])(?
+2022-08-06 13:52:42.609068 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:42.609331 [Info] : Client[15] quit!
+2022-08-06 13:52:44.777011 [Info] : Client[16](111.117.126.51:48457) in, UserCount:8
+2022-08-06 13:52:44.777119 [Info] : Client[16] in!
+2022-08-06 13:52:44.947203 [Debug]: REPLY: Tokenize a string using snake_case .
+2022-08-06 13:52:44.947285 [Debug]: Body: {"code":"def tokenize_with_snake_case(token: str) -> list: return token.split('_')"}, len: 84
+2022-08-06 13:52:44.947303 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:44.947606 [Info] : Client[16] quit!
+2022-08-06 13:52:47.386822 [Info] : Client[17](111.117.126.51:41574) in, UserCount:9
+2022-08-06 13:52:47.386929 [Info] : Client[17] in!
+2022-08-06 13:52:47.603856 [Debug]: REPLY: Takes a string and converts it to snake_case
+2022-08-06 13:52:47.603944 [Debug]: Body: {"code":"def process_camel_snake_case(text: str) -> str: tokens = text.split() snake_case_tokenized = [] for token in to
+2022-08-06 13:52:47.603964 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:47.604225 [Info] : Client[17] quit!
+2022-08-06 13:52:52.052114 [Info] : Client[18](111.117.126.51:19505) in, UserCount:10
+2022-08-06 13:52:52.052226 [Info] : Client[18] in!
+2022-08-06 13:52:52.215806 [Debug]: REPLY: Load a list of examples .
+2022-08-06 13:52:52.215889 [Debug]: Body: {"code":"def load_data(args, filenames, max_examples=-1, dataset_name='java', test_split=False) -> list(): srcpath = fil
+2022-08-06 13:52:52.215916 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:52.216079 [Info] : Client[18] quit!
+2022-08-06 13:52:56.613119 [Info] : Client[19](111.117.126.51:43030) in, UserCount:11
+2022-08-06 13:52:56.613224 [Info] : Client[19] in!
+2022-08-06 13:52:56.779785 [Debug]: REPLY: Load a csv file .
+2022-08-06 13:52:56.779866 [Debug]: Body: {"code":"def load_data_csn(args, filename, max_examples=-1, dataset_name='java', test_split=False) -> list(): examples =
+2022-08-06 13:52:56.779893 [Debug]: [POST], [/summary], [1.1]
+2022-08-06 13:52:56.780116 [Info] : Client[19] quit!
+2022-08-06 13:52:59.950426 [Info] : Client[11] quit!
+2022-08-06 13:53:04.119791 [Info] : Client[12] quit!
+2022-08-06 13:53:09.719574 [Info] : Client[13] quit!
+2022-08-06 13:53:38.860788 [Info] : Client[14] quit!
+2022-08-06 13:53:42.612747 [Info] : Client[15] quit!
+2022-08-06 13:53:44.949277 [Info] : Client[16] quit!
+2022-08-06 13:53:47.606136 [Info] : Client[17] quit!
+2022-08-06 13:53:52.219939 [Info] : Client[18] quit!

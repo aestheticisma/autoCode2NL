@@ -1,0 +1,255 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat Aug  6 12:41:16 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AGENT_FOLDER = /home/fan/.vscode-server
+# environment
+XDG_SESSION_TYPE = tty
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.2.1
+# makefile
+CURDIR := /home/fan/Downloads/demo/server
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{}}
+# environment
+_ = /usr/bin/make
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/fan
+# environment
+SSH_CONNECTION = 111.117.126.51 21123 192.168.1.12 22
+# environment
+PATH = /home/fan/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/remote-cli:/home/fan/.local/bin:/home/fan/anaconda3/bin:/home/fan/anaconda3/condabin:/home/fan/.local/lib/pkgconfig:/home/fan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+XDG_RUNTIME_DIR = /run/user/1001
+# environment
+VSCODE_LOG_STACK = false
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1001/vscode-ipc-200c82f1-ee43-40fc-bce4-d1f73b626ec6.sock
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_EXE = /home/fan/anaconda3/bin/conda
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/fan/Downloads/demo/server
+# default
+.LOADED := 
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+PKG_CONFIG_PATH = /home/fan/.local/lib/pkgconfig
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/fan
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = fan
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# environment
+CONDA_DEFAULT_ENV = base
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+ 
+# environment
+SHLVL = 2
+# environment
+XDG_SESSION_ID = 171
+# environment
+USER = fan
+# makefile
+.DEFAULT_GOAL := all
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+CONDA_SHLVL = 1
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 111.117.126.51 21123 22
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/fan/.vscode-server/bin/da15b6fd3ef856477bf6f4fb29ba1b7af717770d/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+LC_ALL = C
+# environment
+CONDA_PYTHON_EXE = /home/fan/anaconda3/bin/python
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+_CE_M = 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+CONDA_PREFIX = /home/fan/anaconda3
+# environment
+VSCODE_EXTHOST_WILL_SEND_SOCKET = true
+# environment
+MOTD_SHOWN = pam
+# environment
+_CE_CONDA = 
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=79/1024=8%, Rehash=0, Collisions=10/107=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66307, inode 17833442): 8 files, no impossibilities.
+
+# 8 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 2):
+	mkdir -p bin
+	cd build && make
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-06 09:30:04.728834647
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 13 / storage = 95 B / avg = 7 B
+# current buf: size = 8162 B / used = 95 B / count = 13 / avg = 7 B
+
+# strcache performance: lookups = 20 / hit rate = 35%
+# hash-table stats:
+# Load=13/8192=0%, Rehash=0, Collisions=1/20=5%
+# Finished Make data base on Sat Aug  6 12:41:16 2022
+
+ 

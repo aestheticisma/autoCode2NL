@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service Code2NL {
+    rpc summarize(Code) returns (Summary) {}
+}
+
+message Code {
+    string code = 1;
+}
+
+message Summary {
+    string summary = 1;
+}
